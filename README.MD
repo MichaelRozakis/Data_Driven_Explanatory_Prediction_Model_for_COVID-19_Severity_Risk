@@ -1,20 +1,20 @@
-# 🏥 Data-Driven Explanatory Prediction Model for COVID-19 Severity Risk
+# Data-Driven Explanatory Prediction Model for COVID-19 Severity Risk
 
-## 📌 Overview
+## Overview
 The global spread of COVID-19 has placed unprecedented pressure on healthcare systems worldwide. This project presents an **integrated machine learning (ML) and deep learning (DL) framework** designed to predict the severity of COVID-19 cases among hospitalized patients. By leveraging advanced analytics, this model assists healthcare providers in identifying high-risk individuals and prioritizing interventions effectively.
 
-## 📊 Datasets
+## Datasets
 - **Source**: General University Hospital of Patras
 - **Time Period**: March 2020 - February 2022
 - **Sample Size**: Two datasets, comprising 470 and 194 SARS-CoV-2 positive patients, respectively
 - **Content**: Unprocessed clinical data collected at the initial stage of hospitalization
 
-## 🎯 Objectives
+## Objectives
 - **Unsupervised Patient Classification**: Automatically grouping patients into "Non-Severe," "Severe," and "Deceased" categories using **clustering techniques**.
 - **Predictive Modeling**: Implementing **five ML** and **four DL models** to enhance the accuracy of severity risk prediction.
 - **Explainable AI (XAI)**: Utilizing **SHapley Additive exPlanations (SHAP)** to improve model transparency and interpretability.
 
-## 🏗️ Methodology
+##  Methodology
 ### **1️⃣ Data Preprocessing**
 - Data cleaning and feature engineering
 - Handling missing values
@@ -40,7 +40,7 @@ The global spread of COVID-19 has placed unprecedented pressure on healthcare sy
 ### **5️⃣ Explainability & Feature Importance Analysis**
 - **SHAP (SHapley Additive exPlanations)** used to identify key clinical features contributing to predictions
 
-## 🔥 Key Findings
+## Key Findings
 - **Kolmogorov-Arnold Networks (KANs) outperformed all models**, achieving:
   - **92% & 96% accuracy** in predicting severe COVID-19 outcomes
   - **83% & 87% accuracy** in forecasting mortality risk
@@ -48,14 +48,12 @@ The global spread of COVID-19 has placed unprecedented pressure on healthcare sy
   - Lymphocytes, Neutrophils, Troponin levels, Age, Urea levels, INR, CRP, PO2, APTT, TNF, D-dimer, Hemoglobin, Dyspnea, Diabetes, Hypertension, Potassium (K), and LDH.
 - **Robustness Across Variants & Vaccination Status**: The model demonstrated consistent performance across different COVID-19 strains and patient conditions, including vaccination status.
 
-## 📈 Future Work
+## Future Work
 - Further refinement and optimization of **Kolmogorov-Arnold Networks (KANs)**
 - Additional validation using diverse datasets and COVID-19 variants
 - Investigating the impact of specific patient conditions on severity prediction
 
 
-## 🤝 Acknowledgments
-Special thanks to the **General University Hospital of Patras** for providing the datasets and to the research community for their contributions to **Explainable AI in Healthcare**.
+## Acknowledgments
+Special thanks to the **General University Hospital of Patras** for providing the datasets and to my Supervisors: Dr. Seferina Mavroudi and Dr. Konstantinos Theofilatos for their contributions to **Explainable AI in Healthcare**.
 
----
-✉️ **For inquiries & collaboration, feel free to reach out!** 🚀
