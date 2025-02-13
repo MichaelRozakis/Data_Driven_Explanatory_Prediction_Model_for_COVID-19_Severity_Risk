@@ -53,22 +53,6 @@ The global spread of COVID-19 has placed unprecedented pressure on healthcare sy
 - Additional validation using diverse datasets and COVID-19 variants
 - Investigating the impact of specific patient conditions on severity prediction
 
-## 🛠️ How to Use
-1. **Clone the Repository**
-   ```sh
-   git clone https://github.com/MichaelRozakis/Data_Driven_Explanatory_Prediction_Model_for_COVID-19_Severity_Risk.git
-   ```
-2. **Install Required Dependencies**
-   ```sh
-   pip install -r requirements.txt
-   ```
-3. **Run the Analysis**
-   ```sh
-   python main.py
-   ```
-
-## 📜 License
-This project is licensed under the **MIT License**.
 
 ## 🤝 Acknowledgments
 Special thanks to the **General University Hospital of Patras** for providing the datasets and to the research community for their contributions to **Explainable AI in Healthcare**.
