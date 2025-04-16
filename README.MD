@@ -15,29 +15,29 @@ The global spread of COVID-19 has placed unprecedented pressure on healthcare sy
 - **Explainable AI (XAI)**: Utilizing **SHapley Additive exPlanations (SHAP)** to improve model transparency and interpretability.
 
 ##  Methodology
-### **1️⃣ Data Preprocessing**
+### **1) Data Preprocessing**
 - Data cleaning and feature engineering
 - Handling missing values
 - Feature selection
 
-### **2️⃣ Machine Learning Models**
+### **2) Machine Learning Models**
 - **Logistic Regression**
 - **Support Vector Machines (SVMs)**
 - **Random Forest**
 - **XGBoost**
 - **Gradient Boosting**
 
-### **3️⃣ Deep Learning Models**
+### **3) Deep Learning Models**
 - **Multilayer Perceptrons (MLPs)**
 - **Autoencoders**
 - **TabNets**
 - **Convolutional Neural Networks (CNNs)**
 - **Kolmogorov-Arnold Networks (KANs)** (*Best Performing Model*)
 
-### **4️⃣ Class Imbalance Handling**
+### **4) Class Imbalance Handling**
 - **Synthetic Minority Over-Sampling Technique (SMOTE)** applied to address class imbalance
 
-### **5️⃣ Explainability & Feature Importance Analysis**
+### **5) Explainability & Feature Importance Analysis**
 - **SHAP (SHapley Additive exPlanations)** used to identify key clinical features contributing to predictions
 
 ## Key Findings
